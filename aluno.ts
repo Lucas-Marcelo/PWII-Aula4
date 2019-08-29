@@ -7,9 +7,8 @@ export class Aluno {
 
     constructor(public nome:string) {}
 
-
     //Método
     exibir(){
-        console.log(`Nome: ${this.nome}`)
+        console.log(`Nome: ${this.nome}`);
     }
 }
