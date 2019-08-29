@@ -1,4 +1,5 @@
-import {Diaria} from "./diaria" 
-    let tot = new Diaria(2, 10, 2)
+import { Diaria } from "./diaria";
 
-    console.log(tot.total())
+let tot = new Diaria(2, 10, 2)
+
+console.log(tot.total())
