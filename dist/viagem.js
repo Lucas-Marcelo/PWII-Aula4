@@ -5,12 +5,12 @@ var Viagem = /** @class */ (function () {
         this.rendimentoVeiculo = rendimentoVeiculo;
     }
     Viagem.prototype.distancia = function () {
-        //console.log(`Nome: ${this.tempoGasto * this.velocidadeMedia}`)
         return this.tempoGasto * this.velocidadeMedia;
+        //console.log(`Distância: ${this.tempoGasto * this.velocidadeMedia}`)
     };
     Viagem.prototype.consumo = function () {
-        //console.log(`Nome: ${this.distancia() / this.rendimentoVeiculo}`)
         return this.distancia() / this.rendimentoVeiculo;
+        //console.log(`Consumo: ${this.distancia() / this.rendimentoVeiculo}`)
     };
     return Viagem;
 }());
